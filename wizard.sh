@@ -5,6 +5,7 @@ echo "🧙 Welcome, young Linux Wizard!"
 read -p "Enter your wizard name: " name
 echo "Greetings, $name! Your Linux powers await."
 
+while true; do
 # Spell selection menu
 echo ""
 echo "Choose your spell:"
@@ -28,3 +29,5 @@ elif [[ $choice == "4" ]]; then
 else
     echo "⚡ Invalid spell! Try again next time."
 fi
+
+done
